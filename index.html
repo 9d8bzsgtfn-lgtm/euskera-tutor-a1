@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euskera Tutor A1 - Iker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <h1>Euskera Tutor A1</h1>
+        <p class="header-subtitle">Iker - Tu tutor de euskera desde cero</p>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <div class="main-container">
+
+        <!-- SIDEBAR: Navegacion de lecciones -->
+        <aside class="sidebar">
+            <h2 class="sidebar-title">Ikasgaiak</h2>
+            <nav class="lessons-nav" id="lessonsNav">
+                <!-- Se genera dinamicamente desde course.json -->
+            </nav>
+
+            <div class="sidebar-divider"></div>
+
+            <div class="sidebar-section">
+                <h3>Aurrerapen</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
+                <p class="progress-text" id="progressText">0 / 12 osatuta</p>
+            </div>
+        </aside>
+
+        <!-- CONTENT AREA -->
+        <main class="content-area">
+
+            <!-- MAIN CONTENT (left) -->
+            <div class="content-main">
+                <!-- Lesson Header -->
+                <section class="lesson-header" id="lessonHeader">
+                    <h2 id="lessonTitle">Hautatu ikasgai bat</h2>
+                    <p id="lessonDescription">Aukeratu ikasgai bat alboko menutik hasteko.</p>
+                </section>
+
+                <!-- Section Tabs -->
+                <nav class="section-tabs" id="sectionTabs">
+                    <button class="tab-btn active" data-section="grammar">Gramatika</button>
+                    <button class="tab-btn" data-section="vocabulary">Hiztegia</button>
+                    <button class="tab-btn" data-section="practice">Praktika</button>
+                    <button class="tab-btn" data-section="test">Azterketa</button>
+                </nav>
+
+                <!-- Section Content -->
+                <section class="section-content" id="sectionContent">
+                    <div class="welcome-message">
+                        <p>Ongi etorri euskera tutorira!</p>
+                        <p>Aukeratu ikasgai bat edukia ikusteko.</p>
+                    </div>
+                </section>
+
+            </div>
+
+        </main>
+
+        <!-- RIGHT SIDEBAR (fixed) - Podcast + Chat -->
+        <aside class="content-sidebar">
+            <!-- Podcast Player (compact) -->
+            <section class="podcast-sidebar" id="podcastSidebar">
+                <h3 class="podcast-title">Podcasta</h3>
+                <div class="podcast-player-compact">
+                    <button class="podcast-btn" id="podcastPlayBtn" title="Erreproduzitu">
+                        <span class="icon-play">&#9658;</span>
+                    </button>
+                    <div class="podcast-progress">
+                        <div class="podcast-progress-bar" id="podcastProgressBar">
+                            <div class="podcast-progress-fill" id="podcastProgressFill"></div>
+                        </div>
+                        <div class="podcast-time">
+                            <span id="podcastCurrentTime">0:00</span> / <span id="podcastDuration">0:00</span>
+                        </div>
+                    </div>
+                    <input type="range" class="podcast-volume" id="podcastVolume" min="0" max="100" value="80" title="Bolumena">
+                </div>
+                <audio id="podcastAudio"></audio>
+            </section>
+
+            <!-- Chat Section -->
+            <section class="chat-section">
+                <h3 class="chat-title">Ikerrekin hitz egin</h3>
+
+                <!-- Chat Messages -->
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message tutor-message">
+                        <span class="message-author">Iker:</span>
+                        <p>Kaixo! Ni Iker naiz, zure euskera tutorea. Galdera bat baduzu edo euskaraz praktikatu nahi baduzu, hemen nago laguntzen!</p>
+                    </div>
+                </div>
+
+                <!-- Chat Input -->
+                <div class="chat-input-area">
+                    <div class="voice-controls">
+                        <button class="voice-btn" id="voiceBtn" title="Hitz egin">
+                            <span class="voice-icon">&#127908;</span>
+                            <span class="voice-text" id="voiceText">HITZ EGIN</span>
+                        </button>
+                        <div class="voice-status" id="voiceStatus">PREST</div>
+                    </div>
+
+                    <div class="text-input-wrapper">
+                        <input type="text"
+                               class="chat-input"
+                               id="chatInput"
+                               placeholder="Idatzi hemen..."
+                               autocomplete="off">
+                        <button class="send-btn" id="sendBtn" title="Bidali">&#10148;</button>
+                    </div>
+
+                    <label class="auto-voice-label">
+                        <input type="checkbox" id="autoVoice" checked>
+                        <span>Erantzun ahotsa</span>
+                    </label>
+                </div>
+            </section>
+        </aside>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/speech.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

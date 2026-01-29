@@ -1,0 +1,165 @@
+{
+  "title": "Euskera A1 - Desde Cero",
+  "book": "Creacion propia",
+  "student": "Fran",
+  "tutor": "Iker",
+  "language": "eu-ES",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Kaixo! Aurkezpenak",
+      "description": "Saludos y presentaciones basicas",
+      "completed": false,
+      "topics": ["Pronombres personales", "Verbo izan (ser)", "Saludos", "Numeros 0-10"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 2,
+      "title": "Familia eta Lagunak",
+      "description": "Familia y amigos - Descripciones basicas",
+      "completed": false,
+      "topics": ["Caso NORK intro", "Articulo -a/-ak", "Adjetivos", "Familia"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 3,
+      "title": "Nire Etxea",
+      "description": "Mi casa - Ubicaciones y posesivos",
+      "completed": false,
+      "topics": ["Caso NON (inesivo)", "Verbo egon", "Posesivos", "Casa y colores"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Eguneroko Bizitza",
+      "description": "Vida cotidiana - Rutinas y horarios",
+      "completed": false,
+      "topics": ["Verbo NOR-NORK", "Presente habitual", "Adverbios frecuencia", "Dias semana"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 5,
+      "title": "Janaria eta Edaria",
+      "description": "Comida y bebida - Pedir en restaurante",
+      "completed": false,
+      "topics": ["Nahi izan (querer)", "Caso NORI intro", "Gustatu", "Comida vasca"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 6,
+      "title": "Hiria eta Garraioa",
+      "description": "Ciudad y transporte - Direcciones",
+      "completed": false,
+      "topics": ["Caso NORA (adlativo)", "Caso NONDIK (ablativo)", "Joan/Etorri", "Lugares"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 7,
+      "title": "Erosketak",
+      "description": "Compras - Precios y cantidades",
+      "completed": false,
+      "topics": ["Numeros grandes", "Precios", "Caso NORK consolidacion", "Futuro simple"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 8,
+      "title": "Osasuna eta Gorputza",
+      "description": "Salud y cuerpo - Expresar malestar",
+      "completed": false,
+      "topics": ["Expresiones con ukan", "Verbo eduki", "Imperativo basico", "Cuerpo"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 9,
+      "title": "Aisialdia",
+      "description": "Tiempo libre - Hobbies y planes",
+      "completed": false,
+      "topics": ["Gustatu completo", "Gerundio -tzen ari izan", "Preguntas Zer?", "Deportes"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 10,
+      "title": "Denbora eta Eguraldia",
+      "description": "Tiempo y clima - Hablar del pasado",
+      "completed": false,
+      "topics": ["Pasado izan/ukan", "Expresiones tiempo", "Clima", "Estaciones"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 11,
+      "title": "Lana eta Ikasketak",
+      "description": "Trabajo y estudios - Planes futuros",
+      "completed": false,
+      "topics": ["Futuro -ko/-go", "Subordinadas -ela/-elako", "NOR-NORI-NORK intro", "Profesiones"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    },
+    {
+      "id": 12,
+      "title": "Birpasa eta Praktika",
+      "description": "Repaso integral y test final",
+      "completed": false,
+      "topics": ["Repaso 4 casos", "Tabla verbos auxiliares", "Vocabulario completo", "Test A1"],
+      "sections": {
+        "grammar": true,
+        "vocabulary": true,
+        "practice": true,
+        "test": true
+      }
+    }
+  ]
+}
